@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 194.8 79.4" style="enable-background:new 0 0 194.8 79.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#6FA22A;}
+	.st1{font-family:'HelveticaNeue-CondensedBold';}
+	.st2{font-size:38.3548px;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#FF9600;}
+	.st5{fill:#F9B306;}
+	.st6{fill:none;stroke:#999999;stroke-width:0.5;stroke-miterlimit:10;}
+</style>
+<text transform="matrix(1 0 0 1 69.0283 32.8703)" class="st0 st1 st2">ORANGE</text>
+<text transform="matrix(1 0 0 1 69.0283 66.509)" class="st0 st1 st2">CORNER</text>
+<g>
+	<g>
+		<path class="st3" d="M58.8,8.7c-30.9,0-55.9,25-55.9,55.9h55.9V8.7z"/>
+		<path class="st4" d="M61.7,67.5H0v-2.9C0,32.3,26.4,5.9,58.8,5.9h2.9V67.5z M5.8,61.8h50.1V11.7C28.9,13.1,7.2,34.8,5.8,61.8z"/>
+	</g>
+	<path class="st5" d="M11.1,57.1C14.4,36.5,30.6,20.2,51.2,17v40.1H11.1z"/>
+	
+		<rect x="36.4" y="24.2" transform="matrix(0.7496 -0.6618 0.6618 0.7496 -18.7477 36.4189)" class="st3" width="4.8" height="37.5"/>
+</g>
+<line class="st6" x1="0" y1="77.8" x2="192.3" y2="78.3"/>
+</svg>
