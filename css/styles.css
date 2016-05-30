@@ -12,6 +12,10 @@
   box-sizing: border-box;
   margin: 0; }
 
+html {
+  -webkit-text-size-adjust: 100%;
+  /* Prevent font scaling in landscape while allowing user zoom */ }
+
 html, body, ul, ol {
   margin: 0;
   padding: 0; }
