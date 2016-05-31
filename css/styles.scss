@@ -219,6 +219,13 @@ a {
 }
 
 #photo4 {
+	background: url('../res/raster/cheese.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#photo5 {
 	background: url('../res/raster/onion.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
