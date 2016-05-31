@@ -28,7 +28,48 @@
 		<meta name="msapplication-TileImage" content="/res/raster/favicons/mstile-144x144.png">
 		<meta name="msapplication-config" content="/res/raster/favicons/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
+		
+		<meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+		<meta property="og:type"          content="website" />
+		<meta property="og:title"         content="Orange Corner" />
+		<meta property="og:description"   content="Your description" />
+		<meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
 
+		<script src="https://checkout.stripe.com/checkout.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+        
+        <script>
+		  var handler = StripeCheckout.configure({
+		    key: 'pk_test_UVb2JCIYg2vuBVwhHk0kVRKc',
+		    image: '/res/raster/logo.png',
+		    locale: 'auto',
+		    zipCode: true,
+		    billingAddress: true,
+		    shippingAddress: true,
+		    token: function(token) {
+		      // You can access the token ID with `token.id`.
+		      // Get the token ID to your server-side code for use.
+		    }
+		  });
+		
+		 $( document ).ready(function() {
+			  $('#customButton').on('click', function(e) {
+		    // Open Checkout with further options:
+		    handler.open({
+		      name: 'Orange Corner',
+		      description: 'Elephant With A Yellow Balloon',
+		      currency: "cad",
+		      amount: 300
+		    });
+		    e.preventDefault();
+		  });
+		
+		  // Close Checkout on page navigation:
+		  $(window).on('popstate', function() {
+		    handler.close();
+		  });
+		});
+		</script>
 	</head>
 	<body>
 		<div id="main-content">
@@ -39,12 +80,19 @@
 			
 			
 			
-			<li>
+			<li id="elephantyellowballoon">
 				<div class="feature">
 					<div id="photo1" class="feature-photo-container"></div><div class="feature-information-container">
 						<div class="feature-information">
 							<p class="title">Elephant With A Yellow Balloon</p>
 							<p class="description">Humphrey the elephant wants to wish you a happy birthday, but all he could find was a tiny yellow balloon.</p>
+
+							
+							
+							
+							<button id="customButton">Purchase</button>
+							
+							
 							</div>
 					</div>
 				<div>
@@ -53,7 +101,7 @@
 			
 			
 			
-			<li>
+			<li id="babycarrot">
 				<div class="feature">
 					<div id="photo2" class="feature-photo-container"></div><div class="feature-information-container">
 						<div class="feature-information">
@@ -68,7 +116,7 @@
 			
 			
 			
-			<li>
+			<li id="whosatthedoor">
 				<div class="feature">
 					<div id="photo3" class="feature-photo-container"></div><div class="feature-information-container">
 						<div class="feature-information">
@@ -83,7 +131,7 @@
 			
 			
 			
-			<li>
+			<li id="emotionalonion">
 				<div class="feature">
 					<div id="photo4" class="feature-photo-container"></div><div class="feature-information-container">
 						<div class="feature-information">
