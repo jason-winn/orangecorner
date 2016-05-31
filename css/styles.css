@@ -73,7 +73,7 @@ a {
 
 #main-content {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1000px;
   margin: auto;
   flex: 1 0 auto; }
 
@@ -94,6 +94,10 @@ a {
 --------------------------*/
 .features {
   margin-bottom: 15px; }
+  .features li {
+    margin-bottom: 50px; }
+    .features li:last-child {
+      margin-bottom: 0; }
 
 .feature {
   display: flex;
@@ -105,10 +109,6 @@ a {
 
 .feature-photo-container {
   border-radius: 8px 0 0 8px;
-  background: url("../res/raster/humphrey1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
   height: 400px;
   flex: 1; }
 
@@ -136,6 +136,33 @@ a {
     font-family: "Helvetica Neue", "Helvetica", "Arial";
     font-size: 1em;
     font-weight: 300; }
+
+/*-------------------------
+	Custom Photos
+--------------------------*/
+#photo1 {
+  background: url("../res/raster/humphrey1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+
+#photo2 {
+  background: url("../res/raster/carrots.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+
+#photo3 {
+  background: url("../res/raster/humphrey2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+
+#photo4 {
+  background: url("../res/raster/onion.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
 
 /*-------------------------
 	Media Query
