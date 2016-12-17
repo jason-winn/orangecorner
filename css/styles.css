@@ -141,34 +141,40 @@ a {
 	Custom Photos
 --------------------------*/
 #photo1 {
-  background: url("../res/raster/humphrey1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%; }
+	background: url("../res/raster/humphrey1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%; }
 
 #photo2 {
-  background: url("../res/raster/carrots.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%; }
-
+	background: url("../res/raster/carrots.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%; }
+  
 #photo3 {
-  background: url("../res/raster/humphrey2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%; }
+	background: url("../res/raster/christmas.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%; }
 
 #photo4 {
-  background: url("../res/raster/cheese.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%; }
+	background: url("../res/raster/humphrey2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%; }
 
 #photo5 {
-  background: url("../res/raster/onion.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%; }
+	background: url("../res/raster/cheese.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%; }
+
+#photo6 {
+	background: url("../res/raster/onion.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%; }
 
 /*-------------------------
 	Media Query
