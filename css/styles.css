@@ -153,7 +153,7 @@ a {
 	background-position: 50% 50%; }
   
 #photo3 {
-	background: url("../res/raster/christmas.jpg");
+	background: url("../res/raster/washrooms.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%; }
@@ -169,8 +169,15 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%; }
-
+	
 #photo6 {
+	background: url("../res/raster/christmas.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%; }
+	
+
+#photo7 {
 	background: url("../res/raster/onion.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
