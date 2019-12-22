@@ -184,6 +184,12 @@ a {
 	background-position: 50% 50%; }
 
 #photo8 {
+    background: url("../res/raster/bunny.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; }
+
+#photo9 {
     background: url("../res/raster/peacock.jpg");
     background-size: cover;
     background-repeat: no-repeat;
